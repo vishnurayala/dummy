@@ -29,7 +29,11 @@ class TestClass(object):
             for j in range(10):
                 print i * j
 
-    @staticmethod
+   
+    def hello():
+        print "hello"
+
+     @staticmethod
     def json_to_csv(json_file_path, outfile_path):
         """Convert a file containing a list of flat JSON objects to a csv.
 
