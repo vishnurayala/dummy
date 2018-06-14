@@ -31,6 +31,10 @@ class TestClass(object):
 
     @staticmethod
     def json_to_csv(json_file_path, outfile_path):
+    def hello():
+        print "hello"
+
+    def json_to_csv(self, json_file_path, outfile_path):
         """Convert a file containing a list of flat JSON objects to a csv.
 
         What's a DictWriter, you say? Never heard of it!
