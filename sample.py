@@ -32,7 +32,9 @@ class TestClass(object):
     def hello():
         print "hello"
 
-    @staticmethod
+    def bye():
+        print "bye"
+
     def json_to_csv(self, json_file_path, outfile_path):
         """Convert a file containing a list of flat JSON objects to a csv.
 
